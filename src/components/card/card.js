@@ -8,6 +8,7 @@ const Card = ({ monster: { id, name, email } }) => {
       <img
         src={`https://robohash.org/${id}?set=set2&size=180x180`}
         alt="monster"
+        className="monster-image"
       />
       <h2>{name}</h2>
       <p>{email}</p>
